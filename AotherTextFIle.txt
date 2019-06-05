@@ -1,0 +1,2 @@
+Some text in this file for sample.
+Another information.
