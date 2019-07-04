@@ -1,0 +1,53 @@
+.wrap {
+	width: 1000px;
+	margin: auto;
+}
+
+.header{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#content h2{color:white;
+background: #838383;
+padding-left: 20px}
+
+#header{
+	position: relative;
+	background: #C3C3C3
+}
+
+#name{position: absolute; left: 300px}
+#position{position: absolute; left: 300px; bottom: 10px}
+
+dl {height: 200px;
+	overflow: auto;}
+
+dt {
+	color: blue;
+	font-style:italic;
+}
+
+#left_cont{
+	 float: left; 
+      width: 50%;
+}
+
+#right_content{
+	 float: left; 
+      width: 50%;
+}
+
+#list{
+	margin-right: 30px;
+}
+
+.over{
+	overflow: auto; <!--необходимо для кооректного завершения флоат-->
+}
+
+#footter{
+	height:50px; line-height:50px;	
+	text-align: center;		
+	background: #C3C3C3
+}
