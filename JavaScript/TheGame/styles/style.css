@@ -1,7 +1,22 @@
+#name{
+    font-size: 55px;
+    font-family: 'Amatic SC', cursive;
+/*    font-family: 'Amatic SC', cursive;*/
+
+}
+#talk {
+    width: 500px;
+    height: 30px;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+        
+}
+
 body {
     font-family: sans-serif;
     background-color: #DDD
 }
+
 
 .wrap {
     text-align: center;
@@ -65,8 +80,7 @@ body {
 #control > div {
     margin: auto;
 }
-#reset,
-#show_all_cards {
+#btn>button, #reset {
     width: 200px;
     height: 30px;
 }
@@ -76,16 +90,4 @@ body {
     width: 200px;
 }
 
-#talk {
-    width: 500px;
-    height: 30px;
-    font-size: 30px;
-    font-family: 'Caveat', cursive;
-        
-}
-#name{
-    font-size: 55px;
-    font-family: 'Amatic SC', cursive;
-/*    font-family: 'Amatic SC', cursive;*/
 
-}
