@@ -1,0 +1,9 @@
+.inputs{
+    display: flex;
+}
+#second_block{
+    margin-left: 30px;
+}
+#result{
+    word-break:break-all;
+}
